@@ -1,0 +1,44 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: #f8b500;
+  height: 100vh;
+  text-align: center;
+}
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+h1 {
+  // text-align: center;
+  margin: auto;
+  width: 60%;
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.container-coaching {
+  background-color: #F7F7F7;
+  padding: 10px 15px;
+  width: 40%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 3px 1px #F7F7F6;
+  * {
+    padding: 4px 3px;
+  }
+}
+
+.question {
+  font-weight: 600;
+}
+
+.back {
+  margin-top: 10px;
+  color: white!important;
+  font-weight: 300;
+  padding: 6px;
+}
